@@ -1,0 +1,71 @@
+[
+    {
+        "title": "61-55 Junction Boulevard #27F",
+        "description": "Spacious 1 bedroom plus home office with open gourmet kitchen featuring stainless steel appliances, Caesarstone quartz counters, and eating bar. This great apartment also includes a corner window in the bedroom, in-unit washer/dryer, and wood floors throughout.",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "rent": 3850
+    },
+    {
+        "title": "23-10 42nd Road #16E",
+        "description": "Welcome to Residence 16E at AURA LIC. Explore this elegant luxury studio, where modern sophistication meets timeless comfort. The open concept living and sleeping area is filled with natural light from large floor to ceiling windows with breathtaking views of the Manhattan Skyline and East River, creating a welcoming atmosphere from dawn to dusk.",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "rent": 3890
+    },
+    {
+        "title": "153-10 88th Avenue #111",
+        "description": "With interiors by Alchemy Studio, THE 88 offers residents a boutique building atmosphere with designer homes envisioned to bring tranquility to everyday life. Studio, one-bedroom, one-bedroom with home office, and two-bedroom rental residences boast expansive floorplans, with picturesque views over the development’s extraordinary Infinity Garden or the lush tree-lined 88th Avenue. Custom floor-to-ceiling windows ensure that interiors are bathed in natural light to let the outside in. Chef-quality kitchens meticulously finished with neutral white oak cabinetry, white quartz stone countertops, and a full suite of premium-quality Frigidaire appliances are as practical for preparing holiday feasts as they are for arranging Sunday brunch. Bathrooms are designed with a hotel spa-inspired contemporary ambience with natural stone custom vanities and standing glass showers in several homes. Select residences also offer exclusive private rooftop terraces that provide a unique perspective of the Queens streetscapes, the hillsides of Jamaica and historic Rufus King Park.",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "rent": 3995
+    },
+    {
+        "title": "25-01 45th Street #1A",
+        "description": "This stunning, newly renovated 3-bedroom apartment offers the perfect blend of modern living and convenience. Situated just steps away from public transportation, this apartment is ideal for those seeking both comfort and easy access to the city.",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "rent": 3650
+    },
+    {
+        "title": "98-81 Queens Boulevard #8K",
+        "description": "This 16-story 170-unit building is an ode to Queens’ iconic character, yet is fully contemporary, thoughtfully designed for today. The striking art deco exterior facade — matte pewter gray brick with contrasting black mega-framed oversized windows and limestone base — is a picturesque entrée to these finely designed residences.",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "rent": 5050
+    },
+    {
+        "title": "47-05 Center Boulevard #1802",
+        "description": "Discover the sophistication of this newly renovated, high-floor oversized studio boasting stunning Manhattan views. This residence offers ample custom closets, a gourmet chefs kitchen with stainless steel appliances, and a sleek marble bathroom.",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "rent": 3100
+    },
+    {
+        "title": "26-28 1st Street #2-2601",
+        "description": "Set along Astoria’s picturesque waterfront, Halletts Point intricately intertwines modern residential towers, vibrant green spaces, endless views, abundant amenities, and the warmth of the Astoria neighborhood.",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "rent": 3909
+    },
+    {
+        "title": "59-16 Woodside Avenue #4L",
+        "description": "Welcome to your new 1 bedroom apt located on Woodside Avenue and 59 street! Heat and water is included, 2 blocks to 61 street station and to LIRR. Nearby all supermarkets, restaurants, shopping areas in Woodside.",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "rent": 1999
+    },
+    {
+        "title": "91-32 195th Street #2A",
+        "description": "Fast approval, steps to the subway 15 min to manhattan, extra large closets, extra large livingroom area perfect for entertaining, elevator laundry super on site, hardwood floors/high ceilings, large windows/lots of natural light, supermarkets restaurants, Please reply by answering this 3 questions:\nWhat is your income?\nWhat is your credit score?\nWhat is the best number to reach you?",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "rent": 1650
+    },
+    {
+        "title": "34-34 44th Street #3R",
+        "description": "In your inquiry, include your phone number, income source, credit score, and pets? Once all is received, we will get back to you.\n2 bedroom for rent with heat and hot water INCLUDED\nkitchen includes a DISHWASHER\nSUNFILLED unit\n3rd floor, top floor\n3 blocks to the R train\nDeliveredFRESHLY painted and CLEAN\nAvailable NOW!",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "rent": 2200
+    }]

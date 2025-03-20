@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Queens Rentals</title>
+        <link rel="stylesheet" href="/static/aptstyles.css"/>
+    </head>
+
+    <body style="background-color:#cadefc;">
+        <div class="title_container">
+        <div class="intro">
+            Queens Rentals
+        </div>
+        </br>
+        </div>
+        </br>
+            <div class="search">
+                Searching for an Apartment in QUEENS </br> has never been EASIER
+            </div>
+            </br>
+        <div class="apt_container">
+        <div style="font-size:12px;font-family:sans-serif;">
+            APARTMENT ADDRESS </br>
+            <input type="text" id="txtSearch" size="60">
+        </div>
+        </br>
+        <div style="font-size:12px;font-family:sans-serif;">
+            ROOMS
+            <select id="bedSort">
+                <option value="">Any</option>
+                <option value="0">Studio</option>
+                <option value="1">1</option>
+                <option value="2">2+</option>
+            </select>
+            BATHS
+            <select id="bathSort">
+                <option value="">Any</option>
+                <option value="1">1</option>
+                <option value="2">2+</option>
+            </select>
+            RENT
+            <select id="rentSort">
+                <option value="">None</option>
+                <option value="asc">Ascending</option>
+                <option value="dec">Descending</option>
+            </select>
+            </br>
+            </br>
+            <button style="align:center;" onclick="apt_search();">Find Your Apartment</button>
+        </div>
+        </div> <!-- end apt container -->
+        <div class="error" id="divResults">
+            If you're not getting results, it's because it doesn't work and I don't know how to fix it.
+        </div>
+
+        <script src="/static/aptscript.js"></script>
+
+    </body>
+
+</html>
