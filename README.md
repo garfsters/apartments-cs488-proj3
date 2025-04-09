@@ -1,7 +1,7 @@
 Created a webpage and a web service that shows apartments for rent.
 
 Data:
-JSON file with a list of 10 apartments. Each apartment has the following fields:
+JSON file with a list of apartments. Each apartment has the following fields:
 - Address
 - Description
 - Number of Bedrooms
