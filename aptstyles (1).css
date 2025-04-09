@@ -1,0 +1,148 @@
+/* === BASE STYLES === */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #cadefc;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+/* === TITLE SECTION === */
+.title_container {
+    background-color: #e3f2fd;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #90caf9;
+}
+
+.intro {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0a4d8c;
+}
+
+/* === SEARCH SECTION === */
+.search {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    color: #064e8c;
+}
+
+.apt_container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5faff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+}
+
+select,
+input[type="text"] {
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 1px solid #90caf9;
+    margin: 5px;
+    font-size: 14px;
+    width: auto;
+}
+
+button {
+    background-color: #0a4d8c;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #1565c0;
+}
+
+/* === RESULTS GRID === */
+.results,
+.results-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* === APARTMENT CARDS === */
+.apartment-card {
+    background-color: white;
+    border: 1px solid #e3f2fd;
+    border-left: 6px solid #0a4d8c;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    opacity: 0;
+    animation: fadeInUp 0.5s ease forwards;
+}
+
+/* === ANIMATION === */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* === CARD CONTENT === */
+.apt-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.apt-header h3 {
+    font-size: 18px;
+    color: #0a4d8c;
+    margin: 0;
+}
+
+.rent-price {
+    font-weight: bold;
+    font-size: 16px;
+    color: #0077cc;
+}
+
+.apt-description {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.apt-details {
+    font-size: 13px;
+    color: #555;
+}
+
+/* === HOVER EFFECT === */
+.apartment-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+/* === NO RESULTS === */
+.no-results {
+    font-size: 18px;
+    color: #777;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
